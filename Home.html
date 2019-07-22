@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Game : Tac Tic Toy  ==>>  Home
+        </title>
+        <link rel="stylesheet" href="css/Home.css">
+        <script>
+            function oneplayer()
+            {
+                window.location="onePlayer/oneplayer.html";
+            }
+            function twoplayer()
+            {
+                window.location="twoPlayer/twoplayer.html";
+            }
+        </script>
+    </head>
+    <body>
+        <header>
+                <span>start Game</span>
+        </header>
+       
+        <footer>
+            <div class="left">
+                <div id="header1">One Player</div>
+                <div id="header_1" onclick=oneplayer()>play</div>
+            </div>
+            <div class="right">
+                <div id="header2">Two Player</div>
+                <div id="header_2" onclick=twoplayer()>play</div>
+            </div>
+        </footer>
+         <marquee>
+            <p>
+                choose type Game
+                &nbsp;&nbsp;&nbsp;
+                1- one player
+                 &nbsp;&nbsp;&nbsp;
+                2- two player
+            </p>
+        </marquee>
+    </body>
+</html>
